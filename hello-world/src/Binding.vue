@@ -15,13 +15,23 @@
     new:!isSold,
     'sold':isSold
     }">object conditionality</h2>
+    <h2 v-bind:style="{
+      color:'pink',
+      'font-size': fontsize+px,
+      padding:'20px'
+      
+      }">inline styles</h2>
+      <h2 v-bind:style="style">object style binding</h2><!--v-bind:<attr>==:<attr>-->
+     
  </div>
 </template>
 
 <script>
+import ConditionalRendering from './components/ConditionalRendering.vue';
 
 
 export default {
+  components: { ConditionalRendering },
   name: 'App',
   data(){
     return{
@@ -32,7 +42,12 @@ export default {
       isDisabled:true,
       status:'danger',
       isPromoted:true,
-      isSold:true
+      isSold:true,
+      fontsize:20,
+      style:{
+        fontSize:'30px',
+        color:'yellow'
+      }
     };
   },
   

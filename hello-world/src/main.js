@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue'
 
-createApp(App).mount('#app')
+import ListRendering from './components/ListRendering.vue'
+createApp(ListRendering).mount('#app')
