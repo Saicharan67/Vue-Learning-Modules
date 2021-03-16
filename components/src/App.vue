@@ -1,12 +1,18 @@
 <template>
 <div>
- <Input v-model="name"/>
+ <NameList>
+   <template v-slot:default="slotprops">
+    
+       {{slotprops.firstName}} {{slotprops.lastName}}
+     
+   </template>
+ </NameList>
 </div>
  
 </template>
 
 <script>
-import Input from './components/Input.vue'
+import NameList from './components/NameList.vue'
 
 export default {
   name: 'App',
@@ -20,7 +26,7 @@ export default {
    
   },
   components: {
-    Input
+    NameList
   }
 }
 </script>
