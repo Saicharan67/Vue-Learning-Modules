@@ -1,19 +1,14 @@
 <template>
 <div>
- <NameList>
-   <template v-slot:default="slotprops">
-    
-       {{slotprops.firstName}} {{slotprops.lastName}}
-     
-   </template>
- </NameList>
+ <childstyles/>
+ <h4>App Component</h4>
 </div>
  
 </template>
 
 <script>
-import NameList from './components/NameList.vue'
 
+import Childstyles from './components/Childstyles.vue'
 export default {
   name: 'App',
   data(){
@@ -26,7 +21,8 @@ export default {
    
   },
   components: {
-    NameList
+    
+    Childstyles
   }
 }
 </script>
@@ -40,4 +36,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
