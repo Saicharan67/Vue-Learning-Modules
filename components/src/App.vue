@@ -1,13 +1,14 @@
 <template>
 <div>
  <childstyles/>
+ <NamedList/>
  <h4>App Component</h4>
 </div>
  
 </template>
 
 <script>
-
+import NamedList from './components/NamedList.vue'
 import Childstyles from './components/Childstyles.vue'
 export default {
   name: 'App',
@@ -21,7 +22,7 @@ export default {
    
   },
   components: {
-    
+    NamedList,
     Childstyles
   }
 }
