@@ -2,6 +2,6 @@
 Vue examples Contains
 
 1) Writing Hello World in Vue
-2) Fundamentals in vue
-3) Components in vue
-4) Compositons in vue
+2) Fundamentals in Vue
+3) Components in Vue
+4) Compositons in Vue
