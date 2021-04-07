@@ -1,13 +1,17 @@
 <template>
 <div>
-
+<teleport to="#teleport">
+  <Teleporting/>
+</teleport>
 </div>
  
 </template>
 
 <script>
 
+import Teleporting from './components/Teleporting.vue'
 export default {
+  
   name: 'App',
   data(){
     return{
@@ -19,7 +23,8 @@ export default {
    
   },
   components: {
-    
+     
+    Teleporting
   }
 }
 </script>
