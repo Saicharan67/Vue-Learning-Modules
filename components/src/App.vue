@@ -1,15 +1,12 @@
 <template>
-<div>
-<teleport to="#teleport">
-  <Teleporting/>
-</teleport>
-</div>
+
+<Templateref/>
  
 </template>
 
 <script>
 
-import Teleporting from './components/Teleporting.vue'
+import Templateref from './components/Templateref.vue'
 export default {
   
   name: 'App',
@@ -24,7 +21,8 @@ export default {
   },
   components: {
      
-    Teleporting
+
+    Templateref
   }
 }
 </script>
