@@ -1,5 +1,5 @@
 ## Vue-Learning-Module
-### Vue examples Contains
+### This repo contains learning modules of vue3 which includes
 
 #### 1) Writing Hello World in Vue
 #### 2) Fundamentals in Vue
