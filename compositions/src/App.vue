@@ -1,14 +1,15 @@
 <template>
-<Methods/>
+<Computed/>
 </template>
 
 <script>
 
-import Methods from './components/Methods'
+import Computed from './components/Computed'
 export default {
   name: 'App',
+  
   components: {
-   Methods
+   Computed
   }
 }
 </script>
