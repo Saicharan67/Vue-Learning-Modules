@@ -1,15 +1,15 @@
 <template>
-<Computed/>
+<Watch/>
 </template>
 
 <script>
 
-import Computed from './components/Computed'
+import Watch from './components/Watch'
 export default {
   name: 'App',
   
   components: {
-   Computed
+   Watch
   }
 }
 </script>
