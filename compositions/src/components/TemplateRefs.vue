@@ -10,7 +10,7 @@ export default {
     setup() {
         const inputRef = ref(null)
         onMounted(()=>{
-            inputRef.value.focus()
+            inputRef.value.focus( )
         })
            return{
         inputRef
